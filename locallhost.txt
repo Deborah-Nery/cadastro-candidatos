@@ -1,0 +1,17 @@
+
+
+HOST:  http://127.0.0.1:5500/index.html
+HOST:  http://127.0.0.1:5500/index.html
+
+
+URL: https://test-mais-a-educacao-v1.herokuapp.com/?token=Deborah%20Santana%20Nery%20Santos
+
+
+POSTMAN
+
+ { "name": "Deborah Santana Nery Santos ",
+    "planet": "Sol",
+    "birthDate": "28/04/1975",
+    "description": "Para manter o equilíbrio da força, minha motivação como jovem padawan, é ter a oportunidade nestes seis meses de aprender a pilotar uma grande nave que irá projetar-me a tão sonhada jornada dev. ",
+    "id": "G6eBe58zqpFuJ5LCeagR"
+}

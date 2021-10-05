@@ -1,0 +1,65 @@
+
+@color-gold: #e5b13a;
+@color-submit: #e74c3c; 
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 500;
+	background: none;
+	
+}
+
+html {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/109450/star-wars-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+	position: relative;
+	z-index: 5;
+	width: 50%;
+	max-width: 300px;
+	padding: 90px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+
+input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 7px;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+button {
+	transition: background 0.2s ease;
+	display: block;
+	width: 106%;
+	padding: 10px;
+	color: black;
+	border: none;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	
+	}
+
+h2 {
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: white;
+}
+
+.result {
+	display: block;
+	font-size: 60px;
+	line-height: 64px;
+	text-align: center;
+	text-transform: capitalize;
+	}

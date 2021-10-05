@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Cadastro de Candidatos</title>
+  </head>
+  <body class="body">
+      
+    <div class="wrapper">
+      <div class="star-wars-logo">
+        
+      <div class="input-container">
+        <form action=".result"></form>
+      </div>
+      <div class="result-container">
+        <b class="result"></b>
+      </div>
+    </div>
+  
+        <div class="container"> <div class="input-container"></div>
+      <div class="form">
+        <form onsubmit="createRebel()" method="GET">
+          <form onsubmit="createRebel()" method="POST">
+            <form onsubmit="createRebel()" method="PUT">
+              <form onsubmit="createRebel()" method="DEL">
+          <div>
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Digite aqui o seu nome"
+              id="name"
+            />
+          </div>
+          <div>
+            <label for="planet">Planeta</label>
+            <input
+              type="text"
+              name="planet"
+              placeholder="Digite o seu Planeta de origem"
+              id="planet"
+            />
+          </div>
+          <div>
+            <label for="birthDate">Data de nascimento</label>
+            <input type="date" name="birthDate" id="birthDate" />
+          </div>
+          <div>
+            <label for="description">Descrição</label>
+            <textarea
+              placeholder="Escreva sua Motivação para entrar na aliança - Felicidade"
+              rows="1"
+              name="description"
+              id="description"
+            >
+            </textarea>
+          </div>
+          <div>
+            <button id="button" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+  </body>
+</html>
